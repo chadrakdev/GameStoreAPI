@@ -23,4 +23,13 @@ Status codes are grouped and any error codes will appear in the following ranges
 ## Resources & Responses
 The resources served by this API are games, therefore this section will describe the structure of the game resource, which is our *DTO**, and the responses returned by the program.
 
-**This refers to n object which carries data between processes or applications.; this encapsulates data in a standardised format for transfer across layers or applications.*
+**This refers to an object which carries data between processes or applications.; this encapsulates data in a standardised format for transfer across layers or applications.*
+
+```mermaid
+classDiagram
+      Game : +int Id
+      Game : +string Title
+      Game : +string Genre
+      Game : +decimal Price
+      Game : +DateOnly ReleaseDate
+```
