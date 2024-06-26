@@ -1,0 +1,82 @@
+# Ignore build output directories
+bin/
+obj/
+
+# Rider project files
+.idea/
+.idea_modules/
+logs/
+
+# User-specific files
+*.swp
+*~
+.project
+.settings/
+.DS_Store
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.un~
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Visual Studio Code
+.vscode/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+
+# NuGet v3's project.json files produces these
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# StyleCop
+StyleCopReport.xml
+
+# File-based project references
+*.csproj.user
+*.csproj.FileListAbsolute.txt
+*.csproj.nuget.g.targets
+*.csproj.nuget.g.props
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Backup files
+*.bak
+*.old
+*.orig
+*.tmp
