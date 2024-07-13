@@ -1,8 +1,34 @@
 GET http://localhost:5275/
-#
 
-#
+### GET Games
+GET http://localhost:5275/games
 
-#
+### GET Game By ID
+GET http://localhost:5275/games/5
 
-#
+### POST Game
+POST http://localhost:5275/games
+Content-Type: application/json
+
+{
+    "title": "Ghost of Tsushima", 
+    "genre": "Action Adventure", 
+    "price": 59.99, 
+    "releaseDate": "2020-07-17"
+  }
+
+### PUT Updated Game
+PUT http://localhost:5275/games/5
+Content-Type: application/json
+
+{
+    "id": 5, 
+    "title": "Helldivers II (PS5)", 
+    "genre": "Action Adventure", 
+    "price": 59.99, 
+    "releaseDate": "2020-07-17"
+}
+
+###
+DELETE http://localhost:5275/games/4
+Content-Type: application/json
