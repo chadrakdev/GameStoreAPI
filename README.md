@@ -1,5 +1,11 @@
 # Game Store API
 
+## Architecture
+### DTOs
+For carrying data throughout the application, I chose to implement the GameDto as a record, along with the CreateGameDto and UpdateGameDto, as they are by default immutable and that simplifies the application by reducing the amount of boilerplate code to achieve the same level of integrity within the models.
+
+The convention is to establish a new contract per operation, so I chose to follow this convention to have a separation of concerns and allow for future scalability in the case that an endpoint's requirements changes in the future.
+
 ## Endpoints
 You can interact using CRUD operations and the server will respond with a status code and generally a JSON response body containing the resource state.
 
